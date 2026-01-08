@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    image-rendering: auto;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 9px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.search-container input[type="text"] {
+    padding: 7px;
+    font-size: 17px;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+.search-container button {
+    padding: 7px 15px;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 8px;
+}
+
+.search-container button:hover {
+    background-color: #555;
+}
+
+.social-images {
+    width: 30px;
+}
+
+.main-img {
+    image-rendering: auto;
+    border-radius: 8px;
+    width: auto;
+    text-align: center;
+    
+}
+
+.zoom {
+    transition: transform 0.3s ease; 
+}
+
+.zoom:hover {
+    transform: scale(1.02);
+}
+
+
+nav {
+    margin: 0 20px;
+    justify-content: center;
+    flex-grow: 1;
+}
+nav a {
+    color: #000000;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+     background-color: rgb(0, 0, 0);
+     color: #ffffff;
+}
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    border-radius: 8px;
+}
+
+.custom-img-size {
+    width: 50px;
+    align-items: center;
+
+}
+
+.gif-size {
+    width: 375px; 
+    height: auto; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+
+}
+
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;  
+    }
+}
